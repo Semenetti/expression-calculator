@@ -81,7 +81,7 @@ function expressionCalculator(expr) {
           break;
 
         case "/":
-          if (firstNumber == 0) throw Error("TypeError: Devision by zero.");
+          if (firstNumber == 0) throw Error("TypeError: Division by zero.");
           cashValue.push(secondNumber / firstNumber);
           break;
 
